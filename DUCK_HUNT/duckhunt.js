@@ -1,4 +1,4 @@
-//doc ready
+//doc ready  
 $(() => {
     const body = $("body");
     console.log(body); 
