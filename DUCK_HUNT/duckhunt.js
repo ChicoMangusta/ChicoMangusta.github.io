@@ -71,7 +71,7 @@
 
 window.onload = function () {
 console.log('yoooo');
-
+console.log('h1')
 
     const body = $('body');
     console.log(body);
