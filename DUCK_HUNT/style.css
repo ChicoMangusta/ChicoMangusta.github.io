@@ -46,3 +46,14 @@ html {
     background-position: center;
     background-image: url("https://res.cloudinary.com/dqiighjqq/image/upload/v1585689687/0_zxv7l6.png");
 }
+
+
+.win {
+    font-size: 30px;
+    border: 5px solid red;
+    width: 200px;
+    text-align: center;
+    margin-left: 900px;
+    position: absolute;
+    display: none;
+}

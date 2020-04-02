@@ -69,34 +69,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 window.onload = function () {
 console.log('yoooo');
 
@@ -120,7 +92,7 @@ console.log('yoooo');
             let left = Math.random() * window.innerWidth;
             let top  = Math.random() * window.innerHeight;
             newDiv.style.left = left + "px";
-            newDiv.style.top = top + "px";
+            newDiv.style.top  = top + "px";
         };
 
         moveDuck();
