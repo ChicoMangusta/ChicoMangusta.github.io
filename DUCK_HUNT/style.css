@@ -6,16 +6,14 @@ html {
     background-image: url("https://i.imgur.com/UScebC9.png");
     background-size: cover;
     background-position: center;
-    /* image-rendering: optimizeSpeed;
-    image-rendering: -moz-crisp-edges;
-    image-rendering: -o-crisp-edges;
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: crisp-edges;
-    -ms-interpolation-mode: bicubic;
-    overflow: hidden; */
+    /*   image-rendering: optimizeSpeed;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: bicubic;
+  overflow: hidden; */
 }
-
-
 
 .duck {
     position: absolute;
@@ -23,8 +21,6 @@ html {
     background-position: -100px -160px;
     width: 110px;
     height: 115px;
-    /* GIVE THE LEFT AND TOP POSITION OF DUCK HAVE A TRANSITION EFFECT
-  ONLY NEEDED CHANGE IN THIS FILE!! */
     transition: top 2s, left 2s;
     transition-timing-function: linear;
     background-repeat: no-repeat;
@@ -49,10 +45,4 @@ html {
 .duck.shot {
     background-position: center;
     background-image: url("https://res.cloudinary.com/dqiighjqq/image/upload/v1585689687/0_zxv7l6.png");
-}
-
-
-.win {
-    font-size: 30px;
-    border: 5px solid red;
 }
