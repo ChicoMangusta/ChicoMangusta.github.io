@@ -116,7 +116,7 @@ console.log('h1')
              $('body').append($win);
         }
     };
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 1; i++) {
         createDuck();
     };
 };
