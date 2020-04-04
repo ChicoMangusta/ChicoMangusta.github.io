@@ -84,7 +84,7 @@ duckhunt.js
 
 ## **WIREFRAME**
 
-<img src="https://res.cloudinary.com/dqiighjqq/image/upload/v1585985408/IMG_8557_umz2c9.heic" width="200">
+<img src="https://res.cloudinary.com/dqiighjqq/image/upload/v1585985492/IMG_8557_nvth0v.heic" width="200">
 
 
 ------------------------------------------------------------------------------------------------------------------
