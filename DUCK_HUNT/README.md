@@ -29,14 +29,14 @@ The game in five levels, in where you need to shoot down the ducks, each level y
 
 
 
-![](https://res.cloudinary.com/dqiighjqq/image/upload/v1585983357/0_atldnu.png)
+![](https://res.cloudinary.com/dqiighjqq/image/upload/v1585983357/0_atldnu.png) ![](https://res.cloudinary.com/dqiighjqq/image/upload/v1585689687/0_zxv7l6.png)
 
 
 
 If the 15 seconds finishes and the player don't shoot all the ducks it is a GAME OVER and the game restarts from the beginning.
 
 
-![](https://res.cloudinary.com/dqiighjqq/image/upload/v1585689687/0_zxv7l6.png)
+![](https://res.cloudinary.com/dqiighjqq/image/upload/v1585983490/0_se6mar.png)
 
 
 
