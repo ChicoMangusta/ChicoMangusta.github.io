@@ -51,9 +51,23 @@ html {
 }
 
 
+h1 {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 500px;
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    margin-left: 1300px;
+}
+
+
 .win {
+    
     font-size: 30px;
-    border: 5px solid red;
+    /* border: 5px solid red; */
     width: 200px;
     text-align: center;
     margin-left: 900px;
@@ -63,30 +77,47 @@ html {
 
 
 #countdown {
-    font-size: 50px;
-    display: inline-flex;
+    /* border: 1px solid purple; */
+    font-family: Roboto;
+    font-size: 80px;
+    font-weight: 300;
+    margin-left: 2500px;
+    margin-top: -140px;
     align-items: center;
-    justify-content: center;
-    margin: 0;
-    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+
+
+.botao {
+    /* border: 2px solid blue; */
     width: 200px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: -140px;
 }
 
 
 
-
-a {
-    border: 0;
+.botao a {
+    
+    border: 1px solid lightgrey;
+    border-radius: 25px;
     background: #444;
     color: #fff;
-    width: 10%;
     padding: 15px;
     border-radius: 5px;
+    font-family: Roboto;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: -50px;
 }
 
 
 #gameOver {
     display: none;
     font-size: 50px;
-    
+    font-family: Roboto;
+
 }
