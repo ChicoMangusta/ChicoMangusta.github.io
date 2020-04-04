@@ -3,8 +3,13 @@
 
 //GAME FUNCTION
 window.onload = function () {
-
-
+    // const modal = (e) => {
+    // const modalStart = document.getElementById('modal')
+    //  e.target.classList.add('modal') //use classlist to add and toggle a CSS class
+    // setTimeout(function () {
+    //      e.target.remove() 
+            
+    // }, 1000);
     // const body = document.body;
     // console.log(body);
 
@@ -150,46 +155,7 @@ const reloadWindow = () => {
 
 
 
-// //BRUNOS CODE
-// const startGame = () => {
-//     // Game Started with 30 second but can be adjusted
-//     let minutes = 0.5;
-//     let currentTime = Date.parse(new Date());
-//     let deadline = new Date(currentTime + minutes * 60 * 1000);
-//     //Set the countDown structure
-//     function countDown(endtime) {
-//         let time = Date.parse(endtime) - Date.parse(new Date());
-//         let seconds = Math.floor((time / 1000) % 60);
-//         let minutes = Math.floor((time / 1000 / 60) % 60);
-//         let hours = Math.floor((time / (1000 * 60 * 60)) % 24);
-//         let days = Math.floor(time / (1000 * 60 * 60 * 24));
-//         return {
-//             total: time,
-//             days: days,
-//             hours: hours,
-//             minutes: minutes,
-//             seconds: seconds
-//         };
-//     }
-//     function startCountDown(id, endtime) {
-//         let clock = document.getElementById(id);
-//         let gameOver = document.getElementById("gameOverMessage");
-//         function updateTime() {
-//             let newTime = countDown(endtime);
-//             let minutesP = `<p> Minutes: <span style="color: #f94c4c"> ${newTime.minutes}</span></p>`;
-//             let secondsP = `<p> Seconds: <span style="color: #f94c4c"> ${newTime.seconds}</span></p>`;
-//             clock.innerHTML = `${minutesP}` + " " + `${secondsP}`;
-//             if (newTime.total <= 0) {
-//                 clearInterval(timeinterval);
-//                 gameOver.style.display = "block";
-//             }
-//         }
-//         updateTime();
-//         let timeinterval = setInterval(updateTime, 1000);
-//     }
-//     startCountDown("clockCountDown", deadline);
-//     DoSometing();
-// };
+// 
 
 
 
