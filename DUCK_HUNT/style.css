@@ -75,11 +75,18 @@ html {
 
 
 
-#reset {
+a {
     border: 0;
     background: #444;
     color: #fff;
     width: 10%;
     padding: 15px;
     border-radius: 5px;
+}
+
+
+#gameOver {
+    display: none;
+    font-size: 50px;
+    
 }
